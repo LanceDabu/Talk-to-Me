@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #ECF0F3, #FAFCFC);
+    background: linear-gradient(180deg, #0F2739, #FAF9FF);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -50,9 +50,9 @@ p {
 
 /* Button Styles */
 .subscribe-btn {
-    background-color: #30A8E7;
+    background-color: #0F2739; 
     border: none;
-    color: #ECF0F3;
+    color: #FAF9FF;
     padding: 15px 30px;
     font-size: 15px;
     font-weight: bold;
@@ -63,10 +63,10 @@ p {
 }
 
 .subscribe-btn:hover {
-    background-color: #3d7ab8;
+    background-color:#FAF9FF; 
     box-shadow: 0 8px 25px rgba(158, 158, 158, 0.488);
     transform: scale(1.05);
-    color: #FAFCFC; 
+    color: #0F2739; 
 }
 
 .logo {

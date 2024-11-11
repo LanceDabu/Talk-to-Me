@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subscribe</title>
+    <title>Talk-to-Me</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional inline CSS for the image size */
+        .logo {
+            width: 100%; /* Adjust width to make the image larger */
+            max-width: 300px; /* Set a max-width if you want to limit its size */
+        }
+    </style>
 </head>
 <body>
 
     <div class="container">
         <div class="box">
-            <!-- Logo Image -->
-            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjXJ_P_N_B_fmGaZdLZ-QR4v-eRGaMg1zZYVaZDATPNxQicERdDaYu4YxrT0colPxzw3pHQth9iueilKFxBg5ZPqj8q-798SDzk9TjVr2GRbwMzhFM4Y-yXJqENB_2mrDvHf8LVfZ_Da8UJrSC1J9138foLLKhWRYJGnVaPMl1INYiBm7YEHDguT5UVVUpo" alt="Logo" class="logo">
+            <!-- Enlarged Logo Image -->
+            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEghpl_7or9TdIAIBw_w_X6VXQwJmiqxjNQ6pcdJdugM1FJ3zigcF-O9hXD7lNUxhVnFokiBnprlBAXBg7wRh7PrCQLl1Zp_ePt2Nxu97A9NzLpgKMX-Kp76wGS9Wxbd8GzzNtugtFZ7I4TpFjmr-hnXCuf0Maer3gbnXD0GQdlUo_SgZ19OKX62Vga--4dg" alt="Logo" class="logo">
             
-            <!-- Title and Content -->
-            <h1>Stay Updated!</h1>
-            <p>Subscribe to our newsletter for the latest updates and offers.</p>
+            <!-- Download Button -->
             <button id="subscribe-btn" class="subscribe-btn">Download</button>
         </div>
     </div>
 
     <script>
         document.getElementById('subscribe-btn').addEventListener('click', function() {
-            // Direct download link for Google Drive APK
+            // Direct download link for the APK file on Google Drive
             const apkUrl = 'https://drive.google.com/uc?export=download&id=1tfggYS4rRgHPvM5OXang_fW7xdOzaNaJ';
             // Start download
             window.location.href = apkUrl;
